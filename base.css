@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body {
+    margin: 0;
+    font-family: "Quicksand";
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.topContent {
+    overflow: hidden;
+    background-color: black;
+    opacity: 0.6;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+}
+
+#menu-bar2 {
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+    text-align: right;
+}
+
+#menu-bar2 a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-language-override: normal;
+    position: relative;
+    top: 10px;
+    margin: 16px;
+}
+
+#menu-bar2 a:hover {
+    text-decoration: underline;
+}
+
+#container {
+    padding-top: 20%;
+    color: white;
+    text-align: center;
+    background-size: cover;
+}
+
+.transparent {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('logo/coffee-cup.jpg');
+    position: fixed;
+    z-index: -1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#button1 {
+    background-color: #3d3b3b;
+    /* Green */
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+#button1:hover {
+    background-color: white;
+    /* Green */
+    border: 1px solid #3d3b3b;
+    color: #3d3b3b;
+    cursor: pointer;
+}
+
+#white-container {
+    background-color: white;
+    width: 100%;
+    margin-top: 200px;
+    padding-bottom: 30px;
+    height: auto;
+    font-family: "Segoe UI";
+}
+
+#scroll {
+    padding: 10%;
+}
+
+#scroll h2 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: darkslategrey underline;
+}
+
+#contentWrap {
+    width: 100%;
+    text-align: justify;
+}
+
+#girl {
+    float: left;
+    width: 30vmax;
+    height: 30vmax;
+    min-width: 265px;
+    background: url("logo/girl.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    margin: 0 30 0 0;
+    background-size: cover;
+}
+
+#scroll>button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#touch {
+    font-size: 50px;
+    text-align: center;
+    margin: 20 37% 5% 37%;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}
+
+
+/*body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }*/
+
+input {
+    padding: 5px;
+    height: 30px;
+    width: 30%;
+    font-size: 20;
+    border-radius: 5px;
+    border: 1px solid grey;
+    min-width: 200px;
+    max-width: 260px;
+    margin-bottom: 10px;
+}
+
+label {
+    position: relative;
+    top: 4px;
+    width: 120px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#content-wrapper {
+    width: 424px;
+    margin: 0 auto;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin-left: 165px;
+    cursor: pointer;
+    width: 100px;
+    min-width: 100px;
+}
